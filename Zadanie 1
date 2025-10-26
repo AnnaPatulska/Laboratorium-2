@@ -1,0 +1,11 @@
+Dane wejściowe:
+Wielkość pliku: 280 GB.
+Przepustowość: 10 GB/s.
+Narzut Ethernet/IP/TCP: przyjmuję 5%
+Retransmisje: 1%
+
+Transfer bez narzutów: 280 GB /  10 GB/s = 28 s
+Całkowity narzut: 5% + 1% = 6% = 0,06
+Rzeczywisty czas transferu: 28s * 1,06 = 29,68 s
+
+Wynik: Plik zostanie pobrany w teoretycznym czasie 29,68 sekund uwzględniając narzuty.
